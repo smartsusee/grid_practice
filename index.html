@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        #container {
+
+            display: grid;
+
+            /*maintain the  width  */
+            /* 1260px  */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+            /* grid-template-rows: 400px; */
+            justify-content: space-evenly;
+            justify-items: center;
+
+        }
+
+        #container div {
+
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+
+        #overflow {
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            margin-left: 100px;
+            overflow: auto;
+
+        }
+        p{
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <center>
+        <h1>Grid in css </h1>
+    </center>
+
+    <!-- grid component -->
+
+
+    <!-- 1 2
+    3 4
+    5 6
+
+    1 2 3 
+    4 5 6 -->
+
+
+    <div id="container">
+
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptates aperiam, quibusdam deleniti
+            aut eum delectus ea inventore culpa animi, ipsam pariatur harum ratione optio quaerat facere dignissimos
+            officiis saepe aliquid laudantium esse expedita repudiandae? Quod, iusto. Nam, blanditiis ratione? Sapiente
+            voluptates placeat natus fuga perferendis perspiciatis error voluptatibus cumque.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptates aperiam, quibusdam deleniti
+            aut eum delectus ea inventore culpa animi, ipsam pariatur harum ratione optio quaerat facere dignissimos
+            officiis saepe aliquid laudantium esse expedita repudiandae? Quod, iusto. Nam, blanditiis ratione? Sapiente
+            voluptates placeat natus fuga perferendis perspiciatis error voluptatibus cumque.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptates aperiam, quibusdam deleniti
+            aut eum delectus ea inventore culpa animi, ipsam pariatur harum ratione optio quaerat facere dignissimos
+            officiis saepe aliquid laudantium esse expedita repudiandae? Quod, iusto. Nam, blanditiis ratione? Sapiente
+            voluptates placeat natus fuga perferendis perspiciatis error voluptatibus cumque.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptates aperiam, quibusdam deleniti
+            aut eum delectus ea inventore culpa animi, ipsam pariatur harum ratione optio quaerat facere dignissimos
+            officiis saepe aliquid laudantium esse expedita repudiandae? Quod, iusto. Nam, blanditiis ratione? Sapiente
+            voluptates placeat natus fuga perferendis perspiciatis error voluptatibus cumque.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptates aperiam, quibusdam deleniti
+            aut eum delectus ea inventore culpa animi, ipsam pariatur harum ratione optio quaerat facere dignissimos
+            officiis saepe aliquid laudantium esse expedita repudiandae? Quod, iusto. Nam, blanditiis ratione? Sapiente
+            voluptates placeat natus fuga perferendis perspiciatis error voluptatibus cumque.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptates aperiam, quibusdam deleniti
+            aut eum delectus ea inventore culpa animi, ipsam pariatur harum ratione optio quaerat facere dignissimos
+            officiis saepe aliquid laudantium esse expedita repudiandae? Quod, iusto. Nam, blanditiis ratione? Sapiente
+            voluptates placeat natus fuga perferendis perspiciatis error voluptatibus cumque.</div>
+    </div>
+
+
+
+
+
+    <!-- overflow -->
+
+
+    <h1>overflow</h1>
+
+
+    <div id="overflow">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quis non cum itaque illum voluptates sint
+            eos tempore praesentium quos. Repellat perspiciatis ut ipsa atque culpa voluptates ducimus veniam
+            blanditiis, sit quasi numquam delectus nihil in dicta fugit alias magnam qui laudantium molestias? Tempora
+            nulla corrupti quam, enim iure, nisi similique eius ab laborum vitae alias possimus. Dolores rerum
+            cupiditate aut neque delectus repellat maiores quae nemo? Sapiente voluptatem excepturi alias praesentium
+            quisquam explicabo autem perferendis iste quae doloribus corrupti itaque blanditiis aliquam fugiat provident
+            unde soluta officia accusantium a eos, velit commodi et enim dolor. Quaerat, cupiditate expedita mollitia
+            dolorem quas eveniet aperiam sed. Eligendi repellendus qui voluptate ipsum sapiente eos et obcaecati totam
+            doloribus suscipit maxime rem itaque, incidunt quam asperiores eveniet at vitae eaque hic magnam assumenda.
+            Nobis quo ducimus dignissimos molestiae. Hic, voluptatum? Inventore veritatis ducimus quam voluptas culpa
+            ipsam consectetur modi cumque! Omnis minus tempora qui maxime ad! Pariatur laudantium aliquid quibusdam
+            voluptate eius, incidunt saepe totam temporibus ratione earum quasi optio in itaque quis vel enim sequi
+            quam, mollitia quo. Quia dolore quasi tempore exercitationem distinctio debitis ducimus et illo
+            reprehenderit aliquam laborum nemo nisi sit, veritatis accusantium velit consequatur libero iste cum,
+            explicabo dolores fugiat. Quas excepturi error autem. Consequuntur quibusdam explicabo error quo sed?
+            Similique eos ea corrupti optio deserunt maiores quae adipisci et velit ratione doloremque quam
+            consequuntur, in facere temporibus repellat unde rem dolorum ex natus! Praesentium sint unde voluptatum
+            nostrum, non ipsa molestias quo illo, facere, ratione culpa laudantium officiis aliquam alias excepturi.
+            Ipsam fuga tempora dolore aut facilis illo porro odit totam accusamus, perspiciatis dolor aliquid, omnis
+            molestiae voluptates inventore natus ullam non repellat corrupti. A dicta incidunt exercitationem
+            consequatur cum eaque nemo, esse, eos beatae sequi, porro accusantium. Eum dolor voluptatum possimus libero
+            velit deleniti eligendi illum exercitationem quae. Dolorum rem eaque molestiae expedita in blanditiis illum
+            omnis sapiente temporibus modi, distinctio asperiores reprehenderit explicabo nisi ut iure assumenda
+            voluptatem dolore beatae a iusto aut voluptatum cum? Sed deleniti facere at dolore dignissimos libero
+            quaerat officia nemo odio maxime alias animi explicabo eum accusamus rem ducimus, illum impedit provident?
+            Eos, minus architecto fuga voluptatibus distinctio amet, numquam cumque aspernatur omnis iure ad quo maiores
+            harum id, repellendus aliquid. Nam asperiores laborum necessitatibus? Amet fuga error optio! Optio magnam
+            aut neque, nam praesentium dolorem, cupiditate repudiandae soluta aliquid obcaecati fugiat maiores eos quas,
+            assumenda dicta odit quod! Ex, amet qui aspernatur provident harum quod consequatur quasi reprehenderit
+            cupiditate minima sed delectus odit distinctio. At delectus quisquam similique sapiente unde dolores quam
+            quis repudiandae debitis, neque harum exercitationem, voluptates laboriosam vel eveniet totam dolorem?
+            Perspiciatis quis ullam, odio, ab possimus itaque incidunt consequuntur porro quam tempora architecto
+            quaerat harum veritatis doloribus, amet sit error modi est. Porro enim excepturi in omnis accusamus quos
+            nam, aut asperiores, nemo autem nulla explicabo voluptatum ex sint iure eos accusantium aliquam eaque
+            officia. Consequuntur reiciendis commodi, ullam dolor veritatis, quis pariatur voluptatum, omnis a neque
+            facilis ex saepe nulla iure aliquid. Aliquid, hic.</p>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
